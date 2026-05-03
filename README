@@ -41,6 +41,40 @@ Each completed habit gives you **+10 HP**. The more consistent you are, the full
 | 40    | ██████████████ (14 units) |
 | 50    | ██████████████████ (18 units) |
 
+🚀 Long-term Vision
+Mobile App Port - Convert to React Native or Flutter for iOS/Android
+
+Social Features (opt-in):
+- Share progress with friends
+- Group challenges (e.g., "30-day hydration challenge")
+- Accountability partners
+
+Analytics Dashboard:
+
+- Heatmap calendar showing consistency
+- Progress charts over weeks/months
+- Habit completion trends
+
+Gamification Expansion:
+
+- Daily login rewards
+- Achievement badges (7-day streak, 30-day streak, 100 total tasks)
+- Level-up system with unlockable flower species
+
+Sound effects and confetti animations for milestones
+
+Accessibility Improvements:
+- Dark/light mode toggle
+- Screen reader support
+- Keyboard shortcuts
+- Customizable font sizes
+
+AI Integration (dream big!):
+
+- Personalized habit recommendations based on your patterns
+- Smart reminders when you're most likely to complete tasks
+- Sentiment analysis from optional daily journal entries
+
 ## 🚀 Getting Started
 
 ### Prerequisites
