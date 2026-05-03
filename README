@@ -1,0 +1,69 @@
+# 🌸 Bloom & Grow
+
+A heartwarming habit tracker that turns daily self-care into a journey of personal growth. Complete your habits, watch your Health Points grow, and nurture your relationship with yourself—one task at a time.
+
+![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)
+![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green.svg)
+![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)
+
+## 📖 About The Project
+
+**Bloom & Grow** was created for a coding competition with the theme of *health*. It's a gamified habit tracker where you:
+
+- ✅ Add daily habits you want to build
+- 📋 Check them off as you complete them
+- ❤️ Watch your HP (Health Points) increase
+- 🌱 (Planned) Watch your flower companion bloom alongside you
+
+Every checked habit adds to your score, and with consistency comes growth—both in the app and in real life.
+
+> *"Complete your checklist everyday and make YOU happy!"*
+
+## 🎮 How It Works
+
+### The Journey Flow
+
+1. **Welcome Screen** - Click the big welcome button to begin
+2. **Enter Your Name** - Make it personal
+3. **Add Your Habits** - List up to 5 habits you want to track
+4. **Daily Check-ins** - Tick off completed tasks to gain HP
+5. **New Day** - Hit "TMR" to reset your checklist and continue
+
+### HP Progression
+
+Each completed habit gives you **+10 HP**. The more consistent you are, the fuller your health bar becomes:
+
+| Score | HP Bar Width |
+|-------|--------------|
+| 10    | ████ (4 units) |
+| 20    | ███████ (7 units) |
+| 30    | ███████████ (11 units) |
+| 40    | ██████████████ (14 units) |
+| 50    | ██████████████████ (18 units) |
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.x installed on your system
+- Tkinter (usually comes pre-installed with Python)
+
+### Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/yourusername/bloom-and-grow.git
+cd bloom-and-grow
+
+### The code currently uses hardcoded image paths. You'll need to update these to match your local setup:
+### Update these lines in the code:
+bg = PhotoImage(file=r"YOUR_PATH/bg.gif")
+title = PhotoImage(file=r"YOUR_PATH/title label.png")
+wlcm_btn = PhotoImage(file=r"YOUR_PATH/welcome button.png")
+flower = PhotoImage(file=r"YOUR_PATH/flower.png")
+note = PhotoImage(file=r"YOUR_PATH/notes.png")
+stats = PhotoImage(file=r"YOUR_PATH/name box.png")
+
+### Run
+python bloom_and_grow.py
+
